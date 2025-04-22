@@ -20,3 +20,15 @@ def__init__(self, x, y, vx, vy, massa): # construtor da classe que inicializa os
     self.vy = vy
     self.massa = massa
     self.tempo = 0.0 # tempo inicial
+
+def newton(self, fx, fy, dt): # aplica a segunda lei de Newton para atualizar a velocidade e a posição da partícula com base nas forças (fx, fy) aplicadas e no intervalo de tempo dt.
+    # Atualiza a velocidade
+    self.vx += (fx / self.massa) * dt
+    self.vy += (fy / self.massa) * dt
+
+    # Atualiza a posição
+    self.x += self.vx * dt
+    self.y += self.vy * dt
+
+    # Atualiza o tempo
+    self.tempo += dt
