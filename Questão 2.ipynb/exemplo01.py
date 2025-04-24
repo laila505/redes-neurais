@@ -31,4 +31,19 @@ def newton(self, fx, fy, dt): # aplica a segunda lei de Newton para atualizar a 
     self.y += self.vy * dt
 
     # Atualiza o tempo
-    self.tempo += dt
+    self.tempo = dt
+    # Guarda os dados
+    xs.append(x)
+    ys.append(y)
+    vxs.append(vx)
+    vys.append(vy)
+    ts.append(t)
+
+    # Plotagem da trajetória
+plt.figure(figsize=(8, 5))
+plt.plot(xs, ys)
+plt.xlabel('x (m)')
+plt.ylabel('y (m)')
+plt.title('Trajetória da Partícula (x vs y)')
+plt.grid(True)
+plt.show()
