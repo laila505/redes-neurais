@@ -1,1 +1,1 @@
-Apresentação sobre Redes  Neurais e exercícios propostos 
+Nesta pasta serão apresentados alguns exercícios voltados para o entendimento básico do funcionamento das Redes Neurais. Neste contexto há quatro atividades com diferentes exercícios propostos contendo os códigos e seus resultados a partir do que foi pedido.
