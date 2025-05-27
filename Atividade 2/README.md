@@ -1,0 +1,1 @@
+Atividades para explorar fundamentos de orientação a objetos em python. O intuito do primeiro exemplo é verificar a trajetória de uma partícula (x vs y) e para o exemplo 2 para treinar a rede neural para interpolar algumas funções e procurar entender como o número de camadas e neurônios afetam o resultado.
