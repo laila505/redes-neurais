@@ -1,5 +1,5 @@
 #Atividade 3_primeira parte: fitar o seno
-#Codigo  via Pytorch
+#Codigo modificado para via Pytorch
 
 import numpy as np
 import matplotlib.pyplot as plt
