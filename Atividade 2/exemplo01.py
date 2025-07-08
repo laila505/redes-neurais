@@ -11,7 +11,7 @@ class Particula:
         self.vx = vx
         self.vy = vy
         self.m = m
-        self.t = 0.5
+        self.t = 0.0
 
         # Histórico
         self.x_list = [x]

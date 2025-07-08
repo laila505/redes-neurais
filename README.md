@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 # 🌟 Projeto de Atividades Computacionais em Física 
+=======
+# 🌟 Atividades Computacionais em Física 
+
+>>>>>>> 41660714482a7166fb45156701292a498827650a
 Este repositório reúne uma série de atividades computacionais voltadas à aplicação de conceitos de Física, Matemática Aplicada e Ciência de Dados, utilizando Python como linguagem principal. Os tópicos vão desde otimização com gradiente descendente até o uso de redes neurais informadas por física para resolver EDOs.
 
 ---
