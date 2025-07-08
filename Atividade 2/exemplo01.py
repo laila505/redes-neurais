@@ -11,7 +11,7 @@ class Particula:
         self.vx = vx
         self.vy = vy
         self.m = m
-        self.t = 0.0
+        self.t = 0.5
 
         # Histórico
         self.x_list = [x]
@@ -61,3 +61,6 @@ particula.simulacao(dt=0.1)
 
 # Plotar a trajetória
 particula.plotar_trajetoria()
+
+# Salva o gráfico
+plt.savefig("grafico.png")
