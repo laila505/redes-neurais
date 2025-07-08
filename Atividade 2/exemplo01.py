@@ -43,13 +43,17 @@ class Particula:
             self.atualizar_posicao(dt)
 
     def plotar_trajetoria(self):
-        plt.figure(figsize=(8, 6))
+       
+        plt.figure(figsize=(6, 6))
         plt.plot(self.x_list, self.y_list, marker='o')
-        plt.title('Trajetória da Partícula')
-        plt.xlabel('Posição x (m)')
-        plt.ylabel('Posição y (m)')
+        plt.title("Trajetória da Partícula")
+        plt.xlabel("Posição x (m)")
+        plt.ylabel("Posição y (m)")
         plt.grid(True)
+        plt.savefig("grafico.png")
         plt.show()
+
+
 
 # --- Programa principal ---
 
@@ -62,5 +66,3 @@ particula.simulacao(dt=0.1)
 # Plotar a trajetória
 particula.plotar_trajetoria()
 
-# Salva o gráfico
-plt.savefig("grafico.png")
