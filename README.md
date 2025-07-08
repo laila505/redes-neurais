@@ -22,7 +22,6 @@ Explora o uso do método do gradiente descendente para encontrar mínimos de fun
 
 📊 Gráfico gerado:
 
-![Gradiente Descendente](./imagens/atividade1.png)
 
 ---
 
@@ -32,7 +31,6 @@ Implementação orientada a objetos da classe `Particula`, com simulações da s
 
 📊 Gráfico de trajetória da partícula:
 
-![Classe Partícula](./imagens/atividade2.png)
 
 ---
 
@@ -42,7 +40,6 @@ Treinamento de redes neurais (com PyTorch, TensorFlow ou scikit-learn) para inte
 
 📊 Exemplo de predição:
 
-![Rede Neural Simples](./imagens/atividade3.png)
 
 ---
 
@@ -52,7 +49,7 @@ Uso de redes neurais informadas por equações diferenciais para resolver EDOs, 
 
 📊 Resultados gráficos:
 
-![PINNs](./imagens/atividade4.png)
+
 
 ---
 
@@ -62,38 +59,15 @@ Aplicação da equação de Schrödinger com função de Bloch para calcular ban
 
 📊 Estrutura de bandas:
 
-![Bandas de energia - Caso 1D](./imagens/atividade6.png)
+
 
 ---
 
-## ⚙️ Requisitos
-
-- Python 3.x
-- NumPy, Matplotlib, SciPy
-- PyTorch ou TensorFlow
-- scikit-learn (opcional)
-- Jupyter Notebook
 
 ---
 
-## 📜 Licença
 
-MIT License - veja o arquivo [LICENSE](./LICENSE)
 
----
 
-## 👩‍💻 Como Contribuir
-
-1. Faça um fork do projeto
-2. Crie uma branch com a sua feature: `git checkout -b minha-feature`
-3. Commit suas alterações: `git commit -m 'feat: nova feature'`
-4. Faça push para a branch: `git push origin minha-feature`
-5. Abra um Pull Request
-
----
-
-## 📧 Contato
-
-Dúvidas? Sugestões? Entre em contato via [seuemail@dominio.com].
 
 ---
