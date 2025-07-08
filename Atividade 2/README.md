@@ -10,6 +10,11 @@ Esta atividade implementa uma simulação simples de uma partícula em um espaç
 Este projeto simula a trajetória de uma partícula sob ação da gravidade.
 
 ## Gráfico da Trajetória da Partícula
+baixo está o gráfico gerado a partir da simulação:
 
-![Gráfico da trajetória](trajetoria da particula.png)
+![Gráfico da Trajetória](Atividade%202/Trajetória%20da%20partícula.png)
+
+---
+
+
 
