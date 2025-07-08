@@ -11,5 +11,5 @@ Este projeto simula a trajetória de uma partícula sob ação da gravidade.
 
 ## Gráfico da Trajetória da Partícula
 
-![Gráfico da trajetória](grafico.png)
+![Gráfico da trajetória](trajetoria da particula.png)
 
