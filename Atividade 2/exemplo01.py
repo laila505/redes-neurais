@@ -43,7 +43,6 @@ class Particula:
             self.atualizar_posicao(dt)
 
     def plotar_trajetoria(self):
-       
         plt.figure(figsize=(6, 6))
         plt.plot(self.x_list, self.y_list, marker='o')
         plt.title("Trajetória da Partícula")
