@@ -15,14 +15,16 @@ Este projeto resolve a equação diferencial do resfriamento de uma caneca de ca
 
 A equação diferencial ordinária (EDO) do resfriamento é:
 
-\[
-\frac{dT}{dt} = r(T_{amb} - T)
-\]
+$$
+\frac{dT}{dt} = r \, (T_{amb} - T)
+$$
 
-- \( T \) = temperatura do café  
-- \( T_{amb} = 25^\circ C \) (temperatura ambiente)  
+Onde:
+
+- \( T \) = temperatura do café
+- \( T_{amb} = 25^\circ C \) (temperatura ambiente)
 - \( r = 0.005 \, s^{-1} \) (taxa de resfriamento)
-
+s
 ---
 
 ## 📌 Etapas
