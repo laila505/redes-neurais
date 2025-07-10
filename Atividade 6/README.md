@@ -26,9 +26,6 @@ A equação de Schrödinger para um potencial periódico \( V(\vec{r} + \vec{R})
 - Considera um cristal 1D com passo \( a = 1 \), utilizando três componentes de onda \( G = -2\pi/a, 0, +2\pi/a \).
 - Define-se um potencial constante \( V_0 \) que gera acoplamento entre os estados.
 - O Hamiltoniano 3×3 é diagonalizado para diversos valores de \( k \) no 1º Brillouin.
-- **Gráfico gerado:**
-
-![Estrutura de bandas simples](./banda_caso1.png)
 
 ---
 
@@ -36,7 +33,7 @@ A equação de Schrödinger para um potencial periódico \( V(\vec{r} + \vec{R})
 
 - Considera um potencial real periódico, como:
   
-  ```math
+  math
   V(x) = -A \exp\left(-\frac{(x - 1)^2}{2\sigma^2}\right) - B \exp\left(-\frac{(x + 1)^2}{2\sigma^2}\right)
 
 

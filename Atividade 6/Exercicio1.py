@@ -4,10 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from numpy.linalg import eigvalsh
 from scipy.integrate import quad
-
-# -------------------------
-# Exercicio 1 - Caso 1D Simples
-# -------------------------
+# Diagrama de Bandas 1D - Caso Simples (Estilo Ashcroft & Mermin)
 
 a = 1.0       # Constante de rede do cristal
 alpha = 0.5   # Termo de acoplamento entre os planos de ondas
