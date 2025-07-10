@@ -7,7 +7,9 @@ Esta atividade implementa uma simulação simples de uma partícula em um espaç
 
 
 ## Gráfico da Trajetória da Partícula
-![Gráfico da Trajetória](Trajetória%20da%20partícula.png)
+Abaixo está a imagem gerada pela simulação do lançamento oblíquo:
+
+![Gráfico da trajetória](grafico.png)
 
 ---
 
