@@ -114,6 +114,7 @@ plt.title('FCNN Interpolation of sin(theta) using PyTorch')
 plt.legend()
 plt.grid(True)
 plt.tight_layout()
+plt.savefig("grafico_seno.png")
 plt.show()
 
 # 10. Salvar o modelo treinado

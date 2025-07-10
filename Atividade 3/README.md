@@ -8,4 +8,9 @@ Nesta atividade foi feita a implementação de redes neurais simples para interp
   - Número de épocas.
   - Batch size.
   - Número de pontos de treino.
+  ## Resultado - Gráfico
+
+Abaixo está o gráfico gerado pela interpolação da função seno:
+  
+  ![Gráfico da interpolação do seno](grafico_seno.png)
 
