@@ -1,12 +1,21 @@
-#particula 
-x; coordenada x da partícula
-y; coordenada y da partícula
-vx; velocidade na direção x
-vy; velocidade na direção y
-m; massa da partícula
-t; tempo
+class Particula:
+    def __init__(self, x, y, vx, vy, massa):
+        """
+        Inicializa a partícula com posição (x, y), velocidade (vx, vy) e massa.
+        """
+        self.x = x  # coordenada x da partícula
+        self.y = y  # coordenada y da partícula
+        self.vx = vx  # velocidade na direção x
+        self.vy = vy  # velocidade na direção y
+        self.massa = massa  # massa da partícula
 
-#métodos
- __init__(self, x, y, vx, vy, m): construtor da classe que inicializa os atributos da partícula
-newton(self, fx,fy,dt): aplica a segunda lei de newton  para atualizar a velocidade e a posição da partícula
-atualiza(self, dt): atualiza a posição da partícula com base na velocidade atual e no tempo decorrido
+    def mover(self, fx, fy, dt):
+        """
+        Atualiza a posição e a velocidade da partícula com base na força (fx, fy) e no intervalo de tempo dt.
+        """
+        ax = fx / self.massa
+        ay = fy / self.massa
+        self.vx += ax * dt
+        self.vy += ay * dt
+        self.x += self.vx * dt
+        self.y += self.vy * dt
