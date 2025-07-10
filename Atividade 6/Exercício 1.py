@@ -6,7 +6,7 @@ from numpy.linalg import eigvalsh
 from scipy.integrate import quad
 
 # -------------------------
-# Exercício 1 - Caso 1D Simples
+# Exercicio 1 - Caso 1D Simples
 # -------------------------
 
 a = 1.0       # Constante de rede do cristal
