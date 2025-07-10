@@ -15,17 +15,22 @@ def V(x):
     return np.exp(-gamma * (x - 0.5)**2)
 
 # Gráfico de V(x) para verificar se está contido no intervalo [0,1]
+# Gráfico de V(x) para verificar se está contido no intervalo [0,1]
 x_vals = np.linspace(0, 1, 200)
-V_vals = V(x_vals)
+v_vals = V(x_vals)
 
 plt.figure(figsize=(6, 4))
-plt.plot(x_vals, V_vals)
+plt.plot(x_vals, v_vals)
 plt.title("Potencial V(x)")
 plt.xlabel("x")
 plt.ylabel("V(x)")
 plt.grid(True)
 plt.tight_layout()
-plt.savefig("grafico_potencial_vx.png")
+
+# Salvando o gráfico como imagem
+plt.savefig("grafico_potencial_vx.png")  # Salva a imagem no diretório do script
+plt.show()
+
 
 
 # Cálculo dos elementos da matriz de potencial V_{mn}
