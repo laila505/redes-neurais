@@ -25,7 +25,8 @@ plt.xlabel("x")
 plt.ylabel("V(x)")
 plt.grid(True)
 plt.tight_layout()
-plt.show()
+plt.savefig("grafico_potencial_vx.png")
+
 
 # Cálculo dos elementos da matriz de potencial V_{mn}
 V_mat = np.zeros((N, N), dtype=complex)

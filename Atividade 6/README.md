@@ -38,3 +38,11 @@ A equação de Schrödinger para um potencial periódico \( V(\vec{r} + \vec{R})
   
   ```math
   V(x) = -A \exp\left(-\frac{(x - 1)^2}{2\sigma^2}\right) - B \exp\left(-\frac{(x + 1)^2}{2\sigma^2}\right)
+
+
+
+  ### Gráfico do Potencial \( V(x) \)
+
+Abaixo está o gráfico da função potencial \( V(x) \), uma gaussiana centrada em 0.5 com largura ajustada por \( \gamma = 50 \):
+
+![Potencial V(x)](grafico_potencial_vx.png)
