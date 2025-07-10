@@ -10,9 +10,12 @@ Nesta atividade foi feita a implementação de redes neurais simples para interp
   - Número de pontos de treino.
   ## Resultado - Gráfico
 
-Abaixo está o gráfico gerado pela interpolação da função seno :
-  
-  ![Gráfico](imagens/grafico_seno.png)
+## Resultado – Interpolação da Função Seno
+
+Abaixo está o gráfico gerado pela interpolação da função seno:
+
+![Gráfico da Interpolação do Seno](grafico_seno.png)
+
 
  
   ## Gráfico das Derivadas
