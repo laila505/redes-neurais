@@ -1,4 +1,4 @@
-Exercício 2 - Caso 1D com V(x)
+#Exercicio 2 - Caso 1D com V(x)
 
 # Número de planos de ondas considerados
 N = 5  # Aumentar N melhora a precisão
