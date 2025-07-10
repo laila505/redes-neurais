@@ -31,10 +31,19 @@ A equação de Schrödinger para um potencial periódico \( V(\vec{r} + \vec{R})
 
 ### ⚙️ Exercício 2 — Caso 1D com V(x)
 
-- Considera um potencial real periódico, como:
-  
-  math
-  V(x) = -A \exp\left(-\frac{(x - 1)^2}{2\sigma^2}\right) - B \exp\left(-\frac{(x + 1)^2}{2\sigma^2}\right)
+Este exercício trata da análise de um potencial periódico do tipo Gaussiana estreita. O potencial é dado por:
+
+\[
+V(x) = e^{-\gamma(x - 0.5)^2}
+\]
+
+As etapas implementadas incluem:
+- Definição do potencial periódico,
+- Cálculo dos elementos da matriz de potencial \( V_{mn} \) via integração,
+- Visualização do potencial \( V(x) \) e da matriz \( V_{mn} \).
+
+### Arquivo
+- [`Exercicio2.py`](Exercicio2.py): Contém a geração do potencial e cálculo da matriz \( V_{mn} \).
 
 
 

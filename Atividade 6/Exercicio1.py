@@ -39,4 +39,5 @@ plt.xlabel("k")
 plt.ylabel("Energia")
 plt.title("Diagrama de Bandas 1D - Caso Simples (Estilo Ashcroft & Mermin)")
 plt.grid(True)
+plt.savefig("nome_da_imagem.png")  # salva a imagem na raiz do projeto ou pasta atual
 plt.show()
