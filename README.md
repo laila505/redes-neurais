@@ -24,16 +24,12 @@ Este repositório reúne uma série de atividades computacionais voltadas à apl
 
 Explora o uso do método do gradiente descendente para encontrar mínimos de funções. Inclui exemplos práticos de otimização e simulações de aprendizado iterativo.
 
-📊 Gráfico gerado:
-
 
 ---
 
 ### 🎯 Atividade 2 - Classe Partícula e Lançamento Oblíquo
 
 Implementação orientada a objetos da classe `Particula`, com simulações da segunda lei de Newton e lançamento oblíquo.
-
-📊 Gráfico de trajetória da partícula:
 
 
 ---
@@ -42,8 +38,6 @@ Implementação orientada a objetos da classe `Particula`, com simulações da s
 
 Treinamento de redes neurais (com PyTorch, TensorFlow ou scikit-learn) para interpolar funções simples (como seno, polinômios e gaussianas).
 
-📊 Exemplo de predição:
-
 
 ---
 
@@ -51,27 +45,9 @@ Treinamento de redes neurais (com PyTorch, TensorFlow ou scikit-learn) para inte
 
 Uso de redes neurais informadas por equações diferenciais para resolver EDOs, com aplicação no resfriamento de uma xícara de café. Compara solução analítica, método de Runge-Kutta e PINNs.
 
-📊 Resultados gráficos:
-
-
-
 ---
 
 ### 🧬 Atividade 6 - Estrutura de Bandas com Schrödinger + Bloch
 
 Aplicação da equação de Schrödinger com função de Bloch para calcular bandas de energia em cristais 1D. Explora a equação central e o Hamiltoniano em base de ondas planas.
 
-📊 Estrutura de bandas:
-
-
-
----
-
-
----
-
-
-
-
-
----
