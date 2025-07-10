@@ -28,7 +28,7 @@ for k in k_vals:
     ])
 
     # Autovalores (energias)
-    energias = eigh(H, eigvals_only=True)
+    energias, _ = eigh(H)
     bandas.append(energias)
 
 # Convertendo lista para array
