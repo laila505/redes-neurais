@@ -27,6 +27,13 @@ A equação de Schrödinger para um potencial periódico \( V(\vec{r} + \vec{R})
 - Define-se um potencial constante \( V_0 \) que gera acoplamento entre os estados.
 - O Hamiltoniano 3×3 é diagonalizado para diversos valores de \( k \) no 1º Brillouin.
 
+## Diagrama de Bandas 1D - Caso Simples
+
+Este gráfico foi gerado com base no modelo tridiagonal de Hamiltoniano para um cristal 1D, conforme Figura 9.4 do livro *Ashcroft & Mermin*.
+
+![Diagrama de Bandas 1D](bandas_1D.png)
+
+
 ---
 
 ### ⚙️ Exercício 2 — Caso 1D com V(x)
