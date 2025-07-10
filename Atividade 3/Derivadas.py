@@ -92,5 +92,6 @@ for i, idx in enumerate(indices):
 
 plt.suptitle("Comparação entre derivadas reais e previstas (MLP)")
 plt.tight_layout()
+plt.savefig("grafico_seno.png")
 plt.show()
 
